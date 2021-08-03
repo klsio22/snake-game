@@ -1,0 +1,43 @@
+body {
+  background-color: #85a62a;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+  height: 95vh;
+  
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  flex-direction: column;
+}
+
+header {
+  font-size: 7vh;
+}
+
+img{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+  
+}
+@media only screen and (max-width:768px){
+  
+  header{
+    margin-top: 2rem;
+    
+  }
+
+  canvas{
+    width: 80vw;
+    margin: 1rem;
+  }
+}
+
+
